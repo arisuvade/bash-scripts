@@ -6,7 +6,7 @@ read guess
 
 number=$(( $RANDOM % 10 ))
 
-if [[ $guess == $number ]]; then
+if [[ $guess -eq $number ]]; then
     echo "You're correct!"
 else
     echo "You're wrong!"

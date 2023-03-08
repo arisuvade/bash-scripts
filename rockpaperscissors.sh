@@ -6,9 +6,9 @@ read _
 
 result=$(( $RANDOM % 3 ))
 
-if [[ $result == 0 ]]; then
+if [[ $result -eq 0 ]]; then
     echo "You won!"
-elif [[ $result == 1 ]]; then
+elif [[ $result -eq 1 ]]; then
     echo "You loss!"
 else
     echo "Draw!"
