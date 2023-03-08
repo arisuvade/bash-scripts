@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo -n "Minuend: "
-read x
+read -r x
 echo -n "Subtrahend: "
-read y
+read -r y
 
-z=$(( $x + $y ))
+z=$(( x + y ))
 echo "Sum: $z"

@@ -2,9 +2,9 @@
 
 echo "Guess the Number!"
 echo -n "Guess (0-9): "
-read guess
+read -r guess
 
-number=$(( $RANDOM % 10 ))
+number=$(( RANDOM % 10 ))
 
 if [[ $guess -eq $number ]]; then
     echo "You're correct!"

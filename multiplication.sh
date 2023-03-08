@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo -n "Multiplicand: "
-read x
+read -r x
 echo -n "Multiplier: "
-read y
+read -r y
 
-z=$(( $x + $y ))
+z=$(( x + y ))
 echo "Sum: $z"
