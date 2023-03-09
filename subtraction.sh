@@ -5,5 +5,5 @@ read -r x
 echo -n "Subtrahend: "
 read -r y
 
-z=$(( x + y ))
-echo "Sum: $z"
+z=$(( x - y ))
+echo "Difference: $z"

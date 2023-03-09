@@ -5,5 +5,5 @@ read -r x
 echo -n "Multiplier: "
 read -r y
 
-z=$(( x + y ))
-echo "Sum: $z"
+z=$(( x * y ))
+echo "Product: $z"
